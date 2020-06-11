@@ -1,12 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import router from './router/router'
+import router from './router/router.js'
 import './assets/style.css';
+
+
 
 Vue.config.productionTip = false
 
 new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+    el: '#app',
+    router,
+    render: h => h(App)
+})
