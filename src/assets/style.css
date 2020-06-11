@@ -1,0 +1,342 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* some global style */
+body{
+    font-size: 14px;
+    font-weight: 400;
+}
+.flex-direction{
+    display: flex;
+    justify-content:space-between
+}
+.align-center{
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
+/* end global style */
+.flex-section{
+    display: flex;
+}
+
+.left-side-area{
+    background-color: #0747a6;
+    max-width: 400px;
+    width:305px;
+    height:100vh;
+}
+.right-side-area{
+    width: calc(100% - 305px);
+    padding:30px 40px;
+}
+.left-side-menu{
+    text-align: left;
+    display: flex;
+    padding:24px 15px 24px 0;
+}
+.left-side-menu ul{
+    padding:0;
+    margin:0;
+}
+.left-side-menu ul span{
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.left-side-menu ul li{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+.left-side-menu ul li a{
+    color: #fff;
+    padding:8px 5px;
+    font-size:14px;
+    display: block;
+}
+.left-side-menu ul li .router-link-exact-active{
+    background-color: #05367f;
+    border-radius: 3px;
+}
+.left-side-menu ul li a svg {
+    width: 40px;
+    text-align: center;
+    height: 22px;
+}
+.global-navigation{
+    width: 70px;
+    margin-left: 3px;
+}
+.content-navigation{
+    width: 240px;
+    margin-left:20px !important;
+}
+.global-navigation ul li {
+    margin-bottom:15px;
+    text-align: center;
+}
+.global-navigation ul li a{
+    padding: 0;
+}
+.left-side-menu .global-navigation ul li a svg{
+    width:auto;
+    height:auto;
+}
+.element-to-bottom{
+    position: absolute;
+    bottom:10px;
+    left:13px;
+}
+.global-navigation ul li.user-name a{
+    background-color: #de350c;
+    height: 28px;
+    width: 28px;
+    border-radius:50%;
+    text-align: center;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0;
+}
+.section-title h2{
+    font-size: 22px;
+    color: rgb(23, 43, 77);
+    font-weight: 600;
+}
+.section-title a{
+    color: rgb(66, 82, 110) ;
+    
+    background: rgba(9, 30, 66, 0.08);
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 27px;
+    
+}
+.search-area table tr th{
+    font-size: 14px;
+    font-weight: 600;
+    padding-right:0;
+    padding-left:0;
+}
+.search-area table tr td{
+    padding-right:0;
+    padding-left:0;
+    border-bottom: 2px solid #dee2e6;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.search-area table tr td p{
+    margin-bottom:0;
+    line-height: 18px;
+}
+.svg-icon{
+    border: 2px solid #2684FF;
+    border-radius: 3px;
+    background-color: #58AFE0;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin-right: 13px;
+}
+.description{
+    font-size: 12px;
+    vertical-align: top;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    border-top:none;
+    color:rgb(94, 108, 132);
+}
+.search-bar ul{
+    padding:0;
+    margin: 0;
+}
+.search-bar ul li{
+    display: inline-block;
+}
+.search-area ul{
+    padding:0;
+    margin:0 0 20px;
+}
+.search-area ul li{
+    display: inline-block;
+    margin-right: 15px;
+    transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+}
+.search-area ul li a{
+    color: rgb(66, 82, 110);
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+.search-area ul li.search{
+    position: relative;
+}
+.search-area ul li.search svg{
+    position: absolute;
+    top: 11px;
+    right:9px;
+    height: 16px;
+    width: 16px;
+    color: rgb(66, 82, 110);
+    display: inline-block;
+}
+.search-area ul li a svg{
+    margin-left: 20px;
+}
+.search-area ul li input{
+    background-color: rgb(250, 251, 252);
+    color: rgb(9, 30, 66);
+    font-size: 12px;
+    border-color: rgb(223, 225, 230);
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 6px;
+    width: 184px;
+    transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+}
+.search-area ul li input:hover{
+    background-color: #ecedf0;
+}
+.search-area ul li:hover a {
+    background-color: #ecedf0;
+}
+.notification-area {
+    background-color: #FDE7E9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    align-items: center;
+}
+.notification-area p{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.space{
+    display: inline-block;
+    width:100%;
+    margin-bottom: 10px;
+}
+/* signup styel start */
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.vertical-center {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;    
+}
+
+.inner-block {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.vertical-center .form-control:focus {
+  border-color: #2554FF;
+  box-shadow: none;
+}
+
+.vertical-center h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7a7a7a;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #2554FF;
+}
+
+.social-icons {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #222222;
+}
+
+.social-icons ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-icons ul li {
+  display: inline-block;
+  zoom: 1;
+  width: 65px;
+  vertical-align: middle;
+  border: 1px solid #e3e8f9;
+  font-size: 15px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5px;
+  background: #f4f6ff;
+}
+
+.social-icons ul li a {
+  display: block;
+  font-size: 1.4em;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social-icons ul li a i {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.social-icons ul li a:focus i,
+.social-icons ul li a:active i {
+  transition: none;
+  color: #222222;
+}
