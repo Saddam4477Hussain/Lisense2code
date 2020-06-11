@@ -1,6 +1,6 @@
 <template>
     <div>
-        sdfhjsd
+        Login page
     </div>
 </template>
 <script>

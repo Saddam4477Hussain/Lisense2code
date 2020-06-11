@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="flex-section">
-      <headerMain></headerMain>
+      <!--<header-main></header-main>-->
       <router-view></router-view>
     </div>
   
@@ -11,12 +11,12 @@
 
 <script>
 
-import HeaderMain from "@/components/HeaderMain.vue";
+// import headerMain from "./components/HeaderMain.vue";
 
 export default {
   
   components: {
-    HeaderMain,
+    // headerMain,
    
   }
   
